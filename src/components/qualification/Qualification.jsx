@@ -25,7 +25,6 @@ function Qualification() {
             cursor: "pointer",
           }}
         >
-          <span className="section__subtitle">Click me</span>
           <div
             className="button button__flex"
             onClick={() => setToggleTime(!toggleTime)}

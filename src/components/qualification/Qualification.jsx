@@ -15,6 +15,7 @@ function Qualification() {
       <h3 className="section__subtitle">Walk Through</h3>
 
       <div className="qualiication__container container">
+        <span className="section__subtitle">Click Me</span>
         <div
           style={{
             display: "flex",

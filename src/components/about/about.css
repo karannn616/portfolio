@@ -71,7 +71,7 @@
 /* FOR MEDIUM DEVICES */
 @media screen and (max-width: 576px) {
   .about__info {
-    grid-template-columns: repeat(2fr, 1);
+    grid-template-columns: repeat(2, 1fr);
   }
   .about__description {
     padding: 0;
@@ -80,6 +80,6 @@
 /* FOR SMALL DEVICES */
 @media screen and (max-width: 350px) {
   .about__info {
-    grid-template-columns: repeat(2fr, 1);
+    grid-template-columns: repeat(2, 1fr);
   }
 }

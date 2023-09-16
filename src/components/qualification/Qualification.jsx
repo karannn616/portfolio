@@ -5,7 +5,7 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import SchoolIcon from "@material-ui/icons/School";
+import { FaSchool } from "react-icons/fa";
 
 function Qualification() {
   const [toggleTime, setToggleTime] = useState(false);
@@ -38,7 +38,7 @@ function Qualification() {
                 className="vertical-timeline-element--education timeline__element"
                 date="2017-2019"
                 iconStyle={{ backgroundColor: "#333333", color: "#fff" }}
-                icon={<SchoolIcon />}
+                icon={<FaSchool />}
               >
                 <h3 className="vertical-timeline-element-title">
                   Fr. Agnel Tech High School
@@ -49,7 +49,7 @@ function Qualification() {
                 className="vertical-timeline-element--education timeline__element"
                 date="2019-2021"
                 iconStyle={{ backgroundColor: "#333333", color: "#fff" }}
-                icon={<SchoolIcon />}
+                icon={<FaSchool />}
               >
                 <h3 className="vertical-timeline-element-title">
                   St. Andrews College of Arts, Science and Commerce
@@ -61,7 +61,7 @@ function Qualification() {
                 className="vertical-timeline-element--education timeline__element"
                 date="2021-Present"
                 iconStyle={{ backgroundColor: "#333333", color: "#fff" }}
-                icon={<SchoolIcon />}
+                icon={<FaSchool />}
               >
                 <h3 className="vertical-timeline-element-title">PVPPCOE</h3>
                 <p>Bachelors in Engineering</p>
@@ -75,7 +75,7 @@ function Qualification() {
                 className="vertical-timeline-element--education timeline__element"
                 date="March 2023 - June 2023"
                 iconStyle={{ backgroundColor: "#333333", color: "#fff" }}
-                icon={<SchoolIcon />}
+                icon={<FaSchool />}
               >
                 <h3 className="vertical-timeline-element-title">
                   Getfly Technologies
@@ -87,7 +87,7 @@ function Qualification() {
                 className="vertical-timeline-element--education timeline__element"
                 date="July 2023 - Present"
                 iconStyle={{ backgroundColor: "#333333", color: "#fff" }}
-                icon={<SchoolIcon />}
+                icon={<FaSchool />}
               >
                 <h3 className="vertical-timeline-element-title">
                   Getfly Technologies
